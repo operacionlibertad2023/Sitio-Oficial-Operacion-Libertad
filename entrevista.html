@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png"
+    href="logo-blanco.png">
+    <title> Operacion Libertad</title>
+    <link rel="stylesheet" href="prueba3.css">
+    <!-- <link rel="stylesheet" href="/entrevista.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <script src="scrollreveal.js"></script>
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/81d73e8e4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <!-- NAVBAR -->
+        <nav id="nav">
+            <a href="#"><img src="logo-lapiz.png" alt="" class="logo"></a>
+            <!-- LINKS -->
+            <ul class="navegacion">
+                <a href="#Nosotros">Nosotros</a>
+                <a href="#descargar" >Descargar</a>
+                <a href="#contact">Contacto</a>
+            </ul>
+            <ul>
+                <button onclick="openNav()"><a  class="fa-solid fa-grip-lines" id="menu"></a></button>
+            </ul>
+        </nav>
+    </header>
+    <div id="mobile-menu" class="overlay">
+        <a onclick="closeNav()" class="close">&times;</a>
+        <div class="overlay-content">
+            <a href="#Nosotros">Nosotros</a>
+            <a href="#descargar">Descargar</a>
+            <a href="#contact">Contacto</a>
+        </div>
+        <div class="redes-sociales">
+            <button><a href=""><i class="fab fa-facebook-f"></i></a></button>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <button><a href="https://www.instagram.com/op.libertad__/"  target="_blank"><i class="fab fa-instagram"></i></a></button>
+        </div>
+    </div>
+    <hr>
+    <main>
+        <!-- <section class="main-img">
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="/mockup.png" style="width:100%">
+                <img class="mySlides" src="/personaje1.png" style="width:100%">
+                <img class="mySlides" src="/mockup.png" style="width:100%">
+                <img class="mySlides" src="/mockup.png" style="width:100%">
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </section> -->
+        <section class="main">
+            <div class="div-contenedor">
+
+            </div>
+        </section>
+        <section class="pie"id="contact">
+            <div class="contenido-contacto">
+              <h3>Contacto</h3>
+              <form action="https://formsubmit.co/operacionlibertad.2023@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Nombre">
+                <input type="email" name="email" placeholder="Correo electrónico">
+                <input type="text" name="comment" placeholder="Comentarios: ">
+                <input type="submit" value="Enviar">
+                <input type="hidden" name="_captcha" value="false">
+              </form>
+              <div class="redes-sociales">
+                <button><a href=""><i class="fa-solid fa-envelope"></i></a></button>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <button><a href="https://www.instagram.com/op.libertad__/"  target="_blank"><i class="fab fa-instagram"></i></a></button>
+              </div>
+            </div>
+            <div class="contenido-encuesta">
+                <h1>Tu opinion Acerca del juego:</h1>
+                <p>Ayudanos a mejorar, tu opinion es importante.</p>
+                <button class="cta">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSmW5I1xw-YAIh2x9uidf2C9GKHw_vfJxyTHYCI893neOtgw/viewform?usp=sf_link" target="_blank">
+                        <span>Formulario</span>
+                        <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                    </a>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>2023 Operacion Libertad. Todos los derechos reservados.&copy;</p>
+            <ul class="footer-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+            </ul>
+    </footer>
+    <script type="text/javascript" src="nav.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="/js/boostrap/bootstrap.js"></script>
+</body>
+</html>
